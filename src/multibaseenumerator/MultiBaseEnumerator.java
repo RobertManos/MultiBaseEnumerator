@@ -16,9 +16,8 @@ public class MultiBaseEnumerator {
     public static void main(String[] args) {
         ArrayList<Integer> input_arr = new ArrayList<Integer>();
         LinkedList< ArrayList<Integer>> ret;
-        System.out.println("enter various numbers delimited by spaces or commas. "
-                + "This program takes the numbered entered and uses them as the bases "
-                + "for the corresponding digit(if '2 3' is entered all numbers with a binary first digit "
+        System.out.println("This program takes the numbers entered and uses them as the bases for each corresponding digit \n"
+                + "if '3 3' is entered the program will produce all two digit ternary numbers"
                 + "and a ternary second digit will be returned.");
         try {
             Scanner sc = new Scanner(System.in);
